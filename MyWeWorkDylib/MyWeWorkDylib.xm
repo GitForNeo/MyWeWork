@@ -51,9 +51,9 @@
     if ([self.mTipsInfoLabel.text isEqualToString:@"红包已领取"] && ![HookTool sharedInstance].canToRedPackageVC) {
         return;
     }
-    if ([self.mIncentDescLabel.text isEqualToString:@"专属"]) {
-        return;
-    }
+//    if ([self.mIncentDescLabel.text isEqualToString:@"专属"]) {
+//        return;
+//    }
     %orig;
 }
 %end

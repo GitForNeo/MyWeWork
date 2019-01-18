@@ -41,6 +41,23 @@
 
 %end
 
+%hook WWKConversationRedEnvelopesBubbleView
+- (void)tony_onClickHongbaoMessage {
+
+    // 过滤已领取的红包
+    if (self.mTipsInfoLabel == nil || self.mTipsInfoLabel.text == nil) {
+        [self updateData];
+    }
+    if ([self.mTipsInfoLabel.text isEqualToString:@"红包已领取"] && ![HookTool sharedInstance].canToRedPackageVC) {
+        return;
+    }
+    if ([self.mIncentDescLabel.text isEqualToString:@"专属"]) {
+        return;
+    }
+    %orig;
+}
+%end
+
 %hook WWKMessage
 
 // 接受到消息以后， 判断红包，并打开
@@ -52,7 +69,6 @@
     WWKMessageRedEnvelopes *redEnvelopes = [wkMessage.messageItems firstObject]; // WWKMessageRedEnvelopes
     
     if ([HookTool sharedInstance].startSnatchHB && redEnvelopes && [redEnvelopes isKindOfClass:%c(WWKMessageRedEnvelopes)]) {
-        %log(redEnvelopes);
         
         if ([HookTool sharedInstance].currentConversationViewController) { // 处在会话
             WWKConversationRedEnvelopesBubbleView *bubbleView = [[%c(WWKConversationRedEnvelopesBubbleView) alloc] init];

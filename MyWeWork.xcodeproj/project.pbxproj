@@ -74,7 +74,7 @@
 		34523345203059D90032EF93 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
 		34523348203059D90032EF93 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
 		3452334A203059D90032EF93 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
-		3452334C203059D90032EF93 /* MyWeWorkDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyWeWorkDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3452334C203059D90032EF93 /* MyWeWorkDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; path = MyWeWorkDylib.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		3452334D203059D90032EF93 /* MyWeWorkDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyWeWorkDylib.mm; sourceTree = "<group>"; };
 		3452334F203059D90032EF93 /* MyWeWorkDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWeWorkDylib.h; sourceTree = "<group>"; };
 		34523351203059D90032EF93 /* MyWeWorkDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeWorkDylib.m; sourceTree = "<group>"; };

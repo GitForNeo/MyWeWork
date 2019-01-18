@@ -63,10 +63,17 @@
 #pragma mark - WWKConversationRedEnvelopesBubbleView
 @interface WWKConversationRedEnvelopesBubbleView: UIView
 
+@property(retain, nonatomic) UILabel *mWishingLabel;
+@property(retain, nonatomic) UILabel *mTipsInfoLabel;
+@property(retain, nonatomic) UILabel *mTypeWordingLabel;
+@property(retain, nonatomic) UILabel *incentiveTipsLabel;
+@property(retain, nonatomic) UILabel *mIncentDescLabel;
+
 @property (nonatomic, strong) WWKMessage* message;
 @property (nonatomic, weak) id delegate;
 
 - (void)tony_onClickHongbaoMessage;
+- (void)updateData;
 
 @end
 

@@ -29,7 +29,7 @@
 
 ### 注意
 1. 非越狱手机推送是不可能推送的，这辈子都不会有推送
-2. [编译好的企业微信2.7.0-Debug.ipa文件](https://pan.baidu.com/s/1F2Le6edDG6ZeRdJ7fFXUsQ)  密码:9mib
+2. [编译好的企业微信2.7.0-Debug.ipa文件](https://pan.baidu.com/s/1BtP5RjASTmEDKCjagUof0A)  密码: 4t3w
 3. [MyWeWork仓库地址](https://github.com/harddog/MyWeWork)
 
 ### 感谢

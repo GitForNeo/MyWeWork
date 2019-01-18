@@ -49,5 +49,5 @@
 github：<https://github.com/harddog>  
 
 <br>
-如果对您有帮助，欢迎打赏：<br>
+如果对您有帮助，欢迎打赏和Star：<br>
  <img src="./IMG_0358.JPG" width = "40%" height = "40%" alt="如果对您有帮助，欢迎打赏" align=center />
